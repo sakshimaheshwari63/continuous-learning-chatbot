@@ -2,7 +2,7 @@ import google.generativeai as genai
 from memory import store_memory, retrieve_memories
 
 # Configure API
-genai.configure(api_key="AIzaSyD1rrGToqOF4BJHz7NVBPNFvCGCrnRjFqY")
+genai.configure(api_key="")
 
 # ✅ Use valid model
 model = genai.GenerativeModel("models/gemini-2.5-flash")
